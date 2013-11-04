@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="888" y="-226"/>
         </scene>
-        <!--View Controller-->
+        <!--Check In View Controller-->
         <scene sceneID="7F2-6n-6Oy">
             <objects>
-                <viewController id="X3U-LC-MkV" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="X3U-LC-MkV" customClass="CheckInViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="70i-vu-WEn"/>
                         <viewControllerLayoutGuide type="bottom" id="CjM-KB-NWJ"/>
@@ -82,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f06-qX-TOl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1829" y="-187"/>
+            <point key="canvasLocation" x="1823" y="-234"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

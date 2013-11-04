@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A3643F91828406A00C1CF01 /* CheckInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3643F81828406A00C1CF01 /* CheckInViewController.m */; };
+		5A3644041828427300C1CF01 /* CheckInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3644031828427300C1CF01 /* CheckInViewController.m */; };
 		68CFAD51181F4510004C7A81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CFAD50181F4510004C7A81 /* Foundation.framework */; };
 		68CFAD53181F4510004C7A81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CFAD52181F4510004C7A81 /* CoreGraphics.framework */; };
 		68CFAD55181F4510004C7A81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CFAD54181F4510004C7A81 /* UIKit.framework */; };
@@ -36,8 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5A3643F71828406A00C1CF01 /* CheckInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInViewController.h; sourceTree = "<group>"; };
-		5A3643F81828406A00C1CF01 /* CheckInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInViewController.m; sourceTree = "<group>"; };
+		5A3644021828427300C1CF01 /* CheckInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckInViewController.h; path = ../CheckInViewController.h; sourceTree = "<group>"; };
+		5A3644031828427300C1CF01 /* CheckInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheckInViewController.m; path = ../CheckInViewController.m; sourceTree = "<group>"; };
 		68CFAD4D181F4510004C7A81 /* TreeHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CFAD50181F4510004C7A81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		68CFAD52181F4510004C7A81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,11 +118,11 @@
 		68CFAD56181F4510004C7A81 /* TreeHouse */ = {
 			isa = PBXGroup;
 			children = (
+				5A3644021828427300C1CF01 /* CheckInViewController.h */,
+				5A3644031828427300C1CF01 /* CheckInViewController.m */,
 				68CFAD5F181F4510004C7A81 /* AppDelegate.h */,
 				68CFAD60181F4510004C7A81 /* AppDelegate.m */,
 				68CFAD62181F4510004C7A81 /* Main.storyboard */,
-				5A3643F71828406A00C1CF01 /* CheckInViewController.h */,
-				5A3643F81828406A00C1CF01 /* CheckInViewController.m */,
 				70E00AEF181F4DEA00526281 /* WelcomeViewController.h */,
 				70E00AF0181F4DEA00526281 /* WelcomeViewController.m */,
 				68CFAD65181F4510004C7A81 /* ViewController.h */,
@@ -260,9 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				68CFAD67181F4510004C7A81 /* ViewController.m in Sources */,
+				5A3644041828427300C1CF01 /* CheckInViewController.m in Sources */,
 				70E00AF1181F4DEA00526281 /* WelcomeViewController.m in Sources */,
 				68CFAD61181F4510004C7A81 /* AppDelegate.m in Sources */,
-				5A3643F91828406A00C1CF01 /* CheckInViewController.m in Sources */,
 				68CFAD5D181F4510004C7A81 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
